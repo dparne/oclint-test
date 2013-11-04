@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9919F330-BB99-42C5-9867-9B27BF694B93</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OCLint-Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>499687D0-79FD-4053-B672-85BC17D3B462</key>
+		<string>https://github.com/dparne/oclint-test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OCLint-Test/OCLint-Test.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>499687D0-79FD-4053-B672-85BC17D3B462</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dparne/oclint-test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>499687D0-79FD-4053-B672-85BC17D3B462</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>499687D0-79FD-4053-B672-85BC17D3B462</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OCLint-Test</string>
+		</dict>
+	</array>
+</dict>
+</plist>

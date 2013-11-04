@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780A793A1827F64D001E1E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A79391827F64D001E1E91 /* Foundation.framework */; };
+		780A793C1827F64D001E1E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A793B1827F64D001E1E91 /* CoreGraphics.framework */; };
+		780A793E1827F64D001E1E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A793D1827F64D001E1E91 /* UIKit.framework */; };
+		780A79441827F64D001E1E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780A79421827F64D001E1E91 /* InfoPlist.strings */; };
+		780A79461827F64D001E1E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A79451827F64D001E1E91 /* main.m */; };
+		780A794A1827F64D001E1E91 /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A79491827F64D001E1E91 /* ALAppDelegate.m */; };
+		780A794D1827F64D001E1E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780A794B1827F64D001E1E91 /* Main.storyboard */; };
+		780A79501827F64D001E1E91 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A794F1827F64D001E1E91 /* ALViewController.m */; };
+		780A79521827F64D001E1E91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780A79511827F64D001E1E91 /* Images.xcassets */; };
+		780A79591827F64D001E1E91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A79581827F64D001E1E91 /* XCTest.framework */; };
+		780A795A1827F64D001E1E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A79391827F64D001E1E91 /* Foundation.framework */; };
+		780A795B1827F64D001E1E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A793D1827F64D001E1E91 /* UIKit.framework */; };
+		780A79631827F64D001E1E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780A79611827F64D001E1E91 /* InfoPlist.strings */; };
+		780A79651827F64D001E1E91 /* OCLint_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A79641827F64D001E1E91 /* OCLint_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		780A795C1827F64D001E1E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780A792E1827F64D001E1E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780A79351827F64D001E1E91;
+			remoteInfo = "OCLint-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780A79361827F64D001E1E91 /* OCLint-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCLint-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780A79391827F64D001E1E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		780A793B1827F64D001E1E91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		780A793D1827F64D001E1E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		780A79411827F64D001E1E91 /* OCLint-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCLint-Test-Info.plist"; sourceTree = "<group>"; };
+		780A79431827F64D001E1E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		780A79451827F64D001E1E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		780A79471827F64D001E1E91 /* OCLint-Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCLint-Test-Prefix.pch"; sourceTree = "<group>"; };
+		780A79481827F64D001E1E91 /* ALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		780A79491827F64D001E1E91 /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		780A794C1827F64D001E1E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		780A794E1827F64D001E1E91 /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
+		780A794F1827F64D001E1E91 /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
+		780A79511827F64D001E1E91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		780A79571827F64D001E1E91 /* OCLint-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCLint-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780A79581827F64D001E1E91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		780A79601827F64D001E1E91 /* OCLint-TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCLint-TestTests-Info.plist"; sourceTree = "<group>"; };
+		780A79621827F64D001E1E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		780A79641827F64D001E1E91 /* OCLint_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLint_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780A79331827F64D001E1E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A793C1827F64D001E1E91 /* CoreGraphics.framework in Frameworks */,
+				780A793E1827F64D001E1E91 /* UIKit.framework in Frameworks */,
+				780A793A1827F64D001E1E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780A79541827F64D001E1E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A79591827F64D001E1E91 /* XCTest.framework in Frameworks */,
+				780A795B1827F64D001E1E91 /* UIKit.framework in Frameworks */,
+				780A795A1827F64D001E1E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780A792D1827F64D001E1E91 = {
+			isa = PBXGroup;
+			children = (
+				780A793F1827F64D001E1E91 /* OCLint-Test */,
+				780A795E1827F64D001E1E91 /* OCLint-TestTests */,
+				780A79381827F64D001E1E91 /* Frameworks */,
+				780A79371827F64D001E1E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780A79371827F64D001E1E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780A79361827F64D001E1E91 /* OCLint-Test.app */,
+				780A79571827F64D001E1E91 /* OCLint-TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780A79381827F64D001E1E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780A79391827F64D001E1E91 /* Foundation.framework */,
+				780A793B1827F64D001E1E91 /* CoreGraphics.framework */,
+				780A793D1827F64D001E1E91 /* UIKit.framework */,
+				780A79581827F64D001E1E91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780A793F1827F64D001E1E91 /* OCLint-Test */ = {
+			isa = PBXGroup;
+			children = (
+				780A79481827F64D001E1E91 /* ALAppDelegate.h */,
+				780A79491827F64D001E1E91 /* ALAppDelegate.m */,
+				780A794B1827F64D001E1E91 /* Main.storyboard */,
+				780A794E1827F64D001E1E91 /* ALViewController.h */,
+				780A794F1827F64D001E1E91 /* ALViewController.m */,
+				780A79511827F64D001E1E91 /* Images.xcassets */,
+				780A79401827F64D001E1E91 /* Supporting Files */,
+			);
+			path = "OCLint-Test";
+			sourceTree = "<group>";
+		};
+		780A79401827F64D001E1E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780A79411827F64D001E1E91 /* OCLint-Test-Info.plist */,
+				780A79421827F64D001E1E91 /* InfoPlist.strings */,
+				780A79451827F64D001E1E91 /* main.m */,
+				780A79471827F64D001E1E91 /* OCLint-Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		780A795E1827F64D001E1E91 /* OCLint-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				780A79641827F64D001E1E91 /* OCLint_TestTests.m */,
+				780A795F1827F64D001E1E91 /* Supporting Files */,
+			);
+			path = "OCLint-TestTests";
+			sourceTree = "<group>";
+		};
+		780A795F1827F64D001E1E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780A79601827F64D001E1E91 /* OCLint-TestTests-Info.plist */,
+				780A79611827F64D001E1E91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		780A79351827F64D001E1E91 /* OCLint-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780A79681827F64D001E1E91 /* Build configuration list for PBXNativeTarget "OCLint-Test" */;
+			buildPhases = (
+				780A79321827F64D001E1E91 /* Sources */,
+				780A79331827F64D001E1E91 /* Frameworks */,
+				780A79341827F64D001E1E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCLint-Test";
+			productName = "OCLint-Test";
+			productReference = 780A79361827F64D001E1E91 /* OCLint-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		780A79561827F64D001E1E91 /* OCLint-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780A796B1827F64D001E1E91 /* Build configuration list for PBXNativeTarget "OCLint-TestTests" */;
+			buildPhases = (
+				780A79531827F64D001E1E91 /* Sources */,
+				780A79541827F64D001E1E91 /* Frameworks */,
+				780A79551827F64D001E1E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780A795D1827F64D001E1E91 /* PBXTargetDependency */,
+			);
+			name = "OCLint-TestTests";
+			productName = "OCLint-TestTests";
+			productReference = 780A79571827F64D001E1E91 /* OCLint-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780A792E1827F64D001E1E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SolsticeMobile;
+				TargetAttributes = {
+					780A79561827F64D001E1E91 = {
+						TestTargetID = 780A79351827F64D001E1E91;
+					};
+				};
+			};
+			buildConfigurationList = 780A79311827F64D001E1E91 /* Build configuration list for PBXProject "OCLint-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 780A792D1827F64D001E1E91;
+			productRefGroup = 780A79371827F64D001E1E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780A79351827F64D001E1E91 /* OCLint-Test */,
+				780A79561827F64D001E1E91 /* OCLint-TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		780A79341827F64D001E1E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A79521827F64D001E1E91 /* Images.xcassets in Resources */,
+				780A79441827F64D001E1E91 /* InfoPlist.strings in Resources */,
+				780A794D1827F64D001E1E91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780A79551827F64D001E1E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A79631827F64D001E1E91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780A79321827F64D001E1E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A79461827F64D001E1E91 /* main.m in Sources */,
+				780A79501827F64D001E1E91 /* ALViewController.m in Sources */,
+				780A794A1827F64D001E1E91 /* ALAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780A79531827F64D001E1E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780A79651827F64D001E1E91 /* OCLint_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780A795D1827F64D001E1E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780A79351827F64D001E1E91 /* OCLint-Test */;
+			targetProxy = 780A795C1827F64D001E1E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		780A79421827F64D001E1E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780A79431827F64D001E1E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		780A794B1827F64D001E1E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780A794C1827F64D001E1E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		780A79611827F64D001E1E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780A79621827F64D001E1E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780A79661827F64D001E1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		780A79671827F64D001E1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		780A79691827F64D001E1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCLint-Test/OCLint-Test-Prefix.pch";
+				INFOPLIST_FILE = "OCLint-Test/OCLint-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		780A796A1827F64D001E1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCLint-Test/OCLint-Test-Prefix.pch";
+				INFOPLIST_FILE = "OCLint-Test/OCLint-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		780A796C1827F64D001E1E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCLint-Test.app/OCLint-Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCLint-Test/OCLint-Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCLint-TestTests/OCLint-TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		780A796D1827F64D001E1E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCLint-Test.app/OCLint-Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCLint-Test/OCLint-Test-Prefix.pch";
+				INFOPLIST_FILE = "OCLint-TestTests/OCLint-TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780A79311827F64D001E1E91 /* Build configuration list for PBXProject "OCLint-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780A79661827F64D001E1E91 /* Debug */,
+				780A79671827F64D001E1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780A79681827F64D001E1E91 /* Build configuration list for PBXNativeTarget "OCLint-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780A79691827F64D001E1E91 /* Debug */,
+				780A796A1827F64D001E1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		780A796B1827F64D001E1E91 /* Build configuration list for PBXNativeTarget "OCLint-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780A796C1827F64D001E1E91 /* Debug */,
+				780A796D1827F64D001E1E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780A792E1827F64D001E1E91 /* Project object */;
+}
