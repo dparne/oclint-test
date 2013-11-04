@@ -1,4 +1,4 @@
 oclint-test
 ===========
 
-Testing UIKit with oclint
+Testing A Simple project with oclint
